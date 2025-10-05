@@ -12,6 +12,8 @@ def language(x):
 
     if t_count > s_count:
         print("English")
+    elif t_count < s_count:
+        print("French")
     else:
         print("French")
 
