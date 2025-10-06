@@ -20,7 +20,7 @@ French (indicating the text is probably French). """
 
 # English or French
 
-def language(x):
+""" def language(x):
     t_count = 0
     s_count = 0
 
@@ -38,7 +38,7 @@ def language(x):
 
 
 n = int(input("WRITE A NUMBER OF LINES."))
-language(n) 
+language(n)  """
 
 
 
@@ -61,7 +61,7 @@ Output the number of parking spaces which were occupied yesterday and today. """
 
 # Occupy Parking
 
-""" n = int(input("WRITE A NUMBER OF PARKING SPACES."))
+n = int(input("WRITE A NUMBER OF PARKING SPACES."))
 
 # Read parking space states
 yesterday = input("WRITE THE PARKING SPACES FROM YESTERDAY.")
@@ -74,4 +74,4 @@ for i in range(n):
         count += 1
 
 # Output the result
-print(f"THE NUMBER OF PARKING SPACES OCCUPIED ON BOTH DAYS ARE {count}.") """
+print(f"THE NUMBER OF PARKING SPACES OCCUPIED ON BOTH DAYS ARE {count}.")
