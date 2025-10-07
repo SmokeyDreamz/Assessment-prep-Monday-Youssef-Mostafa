@@ -38,7 +38,7 @@ French (indicating the text is probably French). """
 
 
 n = int(input("WRITE A NUMBER OF LINES."))
-language(n)  """
+language(n) """
 
 
 
@@ -61,7 +61,7 @@ Output the number of parking spaces which were occupied yesterday and today. """
 
 # Occupy Parking
 
-n = int(input("WRITE A NUMBER OF PARKING SPACES."))
+n = int(input("HOW MANY PARKING SPACES ARE THERE IN TOTAL."))
 
 # Read parking space states
 yesterday = input("WRITE THE PARKING SPACES FROM YESTERDAY.")
