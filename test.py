@@ -125,3 +125,28 @@ In the first and only line, print out the required number of HONI-blocks. """
                             HONI += 1
     print(HONI)
 honifinder("HJJJOOONNNKKKII") """
+
+# Test #1 answers
+
+""" def MC(n, s, a):
+    correct = 0
+    for i in range(n):
+        if s[i] == a[i]:
+            correct +=1 """
+
+""" def password(x):
+    lower = 0
+    upper = 0
+    digits = 0
+    if len(x) > 8 and len(x) < 12:
+        for char in x:
+            if char.islower():
+    if lower > 2 """
+
+""" def elder(o, n, duels):
+    owner = o
+    owners = 1
+    for i in duels:
+        if i[2] == owner:
+            owner = i[0]
+            owners = owners + 1 """
